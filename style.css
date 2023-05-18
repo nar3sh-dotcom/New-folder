@@ -12,86 +12,12 @@
 body{
     width:100%;
 }
-
-
-
-.menu {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  float: left;
-  position: relative;
-}
-
-.menu a {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #464444;
-}
-
-.menu li:hover > .dropdown {
-  display: block;
-}
-
-.dropdown {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color:transparent;
-  border: 1px solid #ccc;
-  padding: 0;
-  z-index: 1;
-  margin: 0;
-}
-
-.dropdown li {
-  float: none;
-  width: 100%;
-}
-
-.dropdown a {
-  padding: 5px 10px;
-  display: block;
-  color: #fff7f7;
-  text-decoration: none;
-}
-
-.dropdown a:hover {
-  background-color:#797474;
-}
-.logo h1 a{
-    color:#d83a12;
-    text-decoration: none;
-    font-family: var(--Roboto);
-}
 main{
-    height:100vh;
-    background:url(sergei-a--heLWtuAN3c-unsplash.jpg);
+    background-image:url(joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
-header{
-    margin:0rem 5rem;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding:1rem ;
-}
-nav ul li a{
-    font-family:var(--Roboto);
-    font-weight:600;
-    font-size:1.2rem;
-}
-.dropdown li{
-    list-style-type: none;
-}
-nav li a:hover{
-    color:rgb(0, 0, 0);
+    height:100vh;
+    width:100%;
 }
 
 .title h1{
@@ -339,3 +265,12 @@ footer div>p{
 }
 
 /*footer ends*/
+@media only screen and (max-width: 600px) {
+    .item{
+        padding-bottom:3rem;
+    }
+    
+    .hero-1{
+        padding:0 0rem;
+    }
+    }

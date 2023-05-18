@@ -16,40 +16,56 @@
 </head>
 <body>
     <main>
-        <header>
-            <div class="logo">
-                <h1>
-                    <a href="#">Luminae</a>
-                </h1>
-            </div>
-            <nav>
-                <ul class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Work</a>
-                    <ul class="dropdown">
-                    <li><a href="#">Build</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">light</a></li>
-                    <li><a href="#">Relic</a></li>
-                    <li><a href="#">Display</a></li>
-                    <li><a href="#">Sprint</a></li>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Luminae</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Web Development</a></li>
+                      <li><a class="dropdown-item" href="#">Branding & Security</a></li>
+                      <li><a class="dropdown-item" href="#">UI Animation</a></li>
+                      <li><a href="" class="dropdown-item">Phtography</a></li>
                     </ul>
-                </li>
-                <li><a href="#">Services</a>
-                    <ul class="dropdown">
-                        <li><a href="">Web Development</a></li>
-                        
-                        <li><a href="">UI Animation</a></li>
-                        <li><a href="">Copywriting</a></li>
-                        <li><a href="">Photography</a></li>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Work
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Build</a></li>
+                      <li><a class="dropdown-item" href="#">Display</a></li>
+                      <li><a class="dropdown-item" href="#">UI Animation</a></li>
+                      <li><a href="" class="dropdown-item">Relic</a></li>
+                      <li><a href="" class="dropdown-item">Sprint</a></li>
+                      <li><a href="" class="dropdown-item">light</a></li>
                     </ul>
-                </li>
-                <li><a href="">About</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Contact</a>
+                  </li>
                 </ul>
-            </nav>
-        </header>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
         <div class="content">
             <div class="title">
                 <h1>
@@ -63,11 +79,11 @@
         </div>
     </main>
     <!--article-->
-    <article class="row hero-1">
-        <div class="col">
+    <article class="row col-sm-12 hero-1">
+        <div class="col ">
           <div class="row">
-            <div class="col explain">
-              <h1>The Journey of Two Hearts</h1>
+            <div class="col  explain">
+              <h1 >The Journey of Two Hearts</h1>
               <p>
                 Relationships are vital connections built on trust, communication, respect, and support. Trust forms the foundation, fostering a sense of security and emotional intimacy. Communication bridges gaps, ensuring both parties feel heard and valued. Respect encompasses appreciation for individuality and boundaries. Support provides encouragement and assistance, empowering individuals to pursue dreams. Though challenges arise, healthy relationships navigate them with understanding and effective problem-solving. These connections enrich our lives, offering love, companionship, personal growth, and a sense of belonging.
               </p>
@@ -218,7 +234,7 @@
             <div class="col-3">
 
             </div>
-            <div class="col-6 text-center subtopic-1">
+            <div class="col-6   text-center subtopic-1">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est facilis maiores, perspiciatis accusamus asperiores sint consequuntur debitis.
                 </p>
