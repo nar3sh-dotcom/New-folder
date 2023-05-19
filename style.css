@@ -13,7 +13,8 @@ body{
     width:100%;
 }
 main{
-    background-image:url(colin-watts-JbkmqKATBys-unsplash\ \(1\).jpg);
+    background-image:url(tony-lee-i_XLLP08BOc-unsplash.jpg);
+    
     background-size: cover;
     background-repeat: no-repeat;
     height:100vh;
@@ -175,7 +176,7 @@ main{
 /*work starts*/
 .work{
     text-align: center;
-    padding:4rem 5rem;
+    
 }
 .work hr{
     color:red;
@@ -266,7 +267,17 @@ footer div>p{
         margin:0;
         padding:0;
         box-sizing: border-box;
+        
     }
+    .work{
+        padding:1rem 2rem;
+    }
+    .item h2,
+    .item p{
+    padding:0 0rem;
+    
+    }   
+    
     .buttons{
         display:flex;
         justify-content: space-evenly;
@@ -332,5 +343,9 @@ footer div>p{
     .explain a{
         margin:0;
     }
+    footer{
+        padding-bottom:1rem;
+    }
+    
 
     }
