@@ -352,13 +352,12 @@ footer div>p{
 /*animation here*/
 .slide-in {
     width: auto;
-    height: 100px;
-    
+    height:auto;
     position: absolute;
     left: -100px; /* Initial position outside the screen */
     top: 50%;
     transform: translateY(-50%);
-    animation: slideFromLeft 2s forwards;
+    animation: slideFromLeft 3s forwards;
   }
   
   @keyframes slideFromLeft {
