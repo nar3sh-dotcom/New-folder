@@ -346,26 +346,46 @@ footer div>p{
     footer{
         padding-bottom:1rem;
     }
+    /*animation here*/
+    .slide-in {
+        width: auto;
+        height:auto;
+        position: absolute;
+        left: -100px; /* Initial position outside the screen */
+        top: 50%;
+        transform: translateY(-50%);
+        animation: slideFromLeft 3s forwards;
+    }
+      
+    @keyframes slideFromLeft {
+        0% {
+          left: -100px; /* Start position outside the screen */
+        }
+        100% {
+          left:0px; /* End position on the screen */
+        }
+    }
+
+    .fade-in {
+        opacity: 0;
+        transform: translateY(100%);
+        animation: fadeIn 3s forwards;
+      }
+      
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+          transform: translateY(100%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      
     
 
 }
-/*animation here*/
-.slide-in {
-    width: auto;
-    height:auto;
-    position: absolute;
-    left: -100px; /* Initial position outside the screen */
-    top: 50%;
-    transform: translateY(-50%);
-    animation: slideFromLeft 3s forwards;
-  }
-  
-  @keyframes slideFromLeft {
-    0% {
-      left: -100px; /* Start position outside the screen */
-    }
-    100% {
-      left:0px; /* End position on the screen */
-    }
-  }
-  
+
+
