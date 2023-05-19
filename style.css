@@ -348,4 +348,25 @@ footer div>p{
     }
     
 
+}
+/*animation here*/
+.slide-in {
+    width: auto;
+    height: 100px;
+    
+    position: absolute;
+    left: -100px; /* Initial position outside the screen */
+    top: 50%;
+    transform: translateY(-50%);
+    animation: slideFromLeft 2s forwards;
+  }
+  
+  @keyframes slideFromLeft {
+    0% {
+      left: -100px; /* Start position outside the screen */
     }
+    100% {
+      left:0px; /* End position on the screen */
+    }
+  }
+  
