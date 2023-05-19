@@ -68,11 +68,7 @@ main{
 .hero-1{
     padding:4rem 5rem;
 }
-.explain h1,
-.explain p{
-    padding-left:6rem;
-    padding-right:6rem;
-}
+
 .explain h1{
     font-family: var(--Roboto);
 }
@@ -266,11 +262,75 @@ footer div>p{
 
 /*footer ends*/
 @media only screen and (max-width: 600px) {
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    .buttons{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .work-item{
+        padding:1rem 0;
+    }
+    .work-1{
+        padding:0;
+    }
     .item{
         padding-bottom:3rem;
     }
-    
-    .hero-1{
-        padding:0 0rem;
+    .explain p{
+        margin:1rem 0;
     }
+    .explain-img{
+        width:80%;
+        margin:1rem auto 0 auto;
+    }
+    .work{
+        padding:1rem 2rem;
+    }
+    .hero-1{
+        padding:3rem 0rem;
+    }
+    .explain{
+        padding:1rem 2rem;
+    }
+    .feature {
+        row-gap: 1rem;
+    }
+    .subtopic p{
+        font-size:1rem;
+    }
+    .prospectus{
+        padding:2rem 2rem;
+    }
+    .prospectus p{
+        padding:.5rem auto;
+        font-size: 1.1rem;
+    }
+    .cmnt-box{
+        display:flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    .cmnt{
+        border-radius:10px;
+    }
+    .blog{
+        padding:2rem 2rem;
+    }
+    .subtopic p{
+        font-size:1.1rem;
+    }
+    .item img{
+        filter: drop-shadow(0px 0px 10px rgba(128, 128, 128, 0.6));
+    }
+    footer{
+        padding:3rem 2rem;
+    }
+    .explain a{
+        margin:0;
+    }
+
     }
