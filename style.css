@@ -261,7 +261,21 @@ footer div>p{
     color:#9c9a9a;
 }
 
+
+
+
 /*footer ends*/
+@media only screen and (min-width: 992px) {
+   .work-item{
+    padding-left:1rem;
+
+   } 
+   .explain a{
+    margin:0;
+   }
+   
+}
+
 @media only screen and (max-width: 600px) {
     *{
         margin:0;
@@ -269,6 +283,7 @@ footer div>p{
         box-sizing: border-box;
         
     }
+    
     .work{
         padding:1rem 2rem;
     }
@@ -302,10 +317,11 @@ footer div>p{
         padding:1rem 2rem;
     }
     .hero-1{
-        padding:3rem 0rem;
+        padding:3rem 2rem;
     }
     .explain{
         padding:1rem 2rem;
+        row-gap: 1rem;
     }
     .feature {
         row-gap: 1rem;
@@ -342,6 +358,7 @@ footer div>p{
     }
     .explain a{
         margin:0;
+        float:left;
     }
     footer{
         padding-bottom:1rem;
@@ -371,7 +388,7 @@ footer div>p{
         transform: translateY(100%);
         animation: fadeIn 3s forwards;
         animation-delay: 1s;
-      }
+    }
       
       @keyframes fadeIn {
         0% {
@@ -382,9 +399,11 @@ footer div>p{
           opacity: 1;
           transform: translateY(0);
         }
-      }
+    }
       
+     
       
+       
     
 
 }

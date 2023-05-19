@@ -2,9 +2,7 @@ function isElementInViewport(element) {
     var rect = element.getBoundingClientRect();
     return (
       rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
     );
   }
   
@@ -13,9 +11,13 @@ function isElementInViewport(element) {
     fadeIns.forEach(function (fade) {
       if (isElementInViewport(fade)) {
         fade.classList.add('fade-in-show');
+      } else {
+        fade.classList.remove('fade-in-show');
       }
     });
   }
   
   window.addEventListener('scroll', handleScroll);
+
   
+ 
