@@ -273,6 +273,12 @@ footer div>p{
    .explain a{
     margin:0;
    }
+   .title h1{
+    font-size: 3.5rem;
+   }
+   .item img{
+    height:300px;
+   }
    
 }
 
