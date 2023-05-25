@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(245, 236, 225);
+    font-family: var(--font);
+}
+:root{
+    --font:'Inter', sans-serif;
+}
+.container-fluid a:hover{
+    color:cornflowerblue;
+}
+.title h1{
+    text-align: center;
+    padding:2rem 0;
+}
+
+.content p{
+    color:rgb(44, 38, 38);
+}
+
+
+
+ 
+  
+
+
+
+  @media only screen and (min-width: 992px){
+    nav{
+        padding:0rem 10rem !important;
+    }
+    .title,
+    .content{
+        padding:0rem 10rem;
+    }
+    .content{
+        padding-bottom: 3rem;
+    }
+    .content img{
+        width:100%;
+        height:450px;
+    }
+}
+
+  @media only screen and (max-width: 600px){
+    nav{
+        width:100%;
+    }
+    .title{
+        padding:0rem 1rem;
+    }
+    .content{
+        padding:0rem  1rem 3rem 1rem;
+    }
+    .content img{
+        width:100%;
+        height:300px;
+    }
+  }
+   
